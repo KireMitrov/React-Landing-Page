@@ -1,0 +1,32 @@
+.offer {
+    text-align: center;
+}
+
+.offer p {
+    padding: 30px 130px;
+    font-size: 20px;
+}
+
+.offer h4 {
+    color: #389daf;
+    font-size: 1.5em;
+}
+
+.offer ul {
+    font-size: 20px;
+    margin-right: 38px;
+}
+
+.offer li {
+    list-style: none;
+}
+
+.enter-btn-offer {
+    color:#fff;
+    background-color: #389daf;
+    font-size: 20px;
+    border: 1px solid #389daf;
+    margin: 10px;
+    line-height: 2;
+    width: 325px;
+}

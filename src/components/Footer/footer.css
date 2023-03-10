@@ -1,0 +1,33 @@
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #389daf;
+    justify-content: space-evenly;
+    color: #f5f1f1;
+}
+
+.footer-name {
+    margin: 20px;
+    font-size: 1.5em;
+}
+
+.footer-moto {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 1em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f5f1f1;
+    font-size: 1.5em;
+    padding-right: 5px;
+}
+
+footer a:hover{
+    transition-duration: 3s;
+    font-size: 2em;
+    transform-origin: bottom;
+}

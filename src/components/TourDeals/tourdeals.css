@@ -1,0 +1,28 @@
+.tour-deals-header {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.tour-deals-header h3 {
+    font-size: 30px;
+    display: flex;
+}
+
+.tour-deals-header a {
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 13px;
+    font-size: 14px;
+}
+
+.tour-deals-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 25px;
+    margin:50px 100px;
+}

@@ -1,38 +1,168 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+/* body {
+    margin:0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+h1 {
+    font-size: 32px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-main-grid {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 90px;
+    margin-left: 250px;
+    margin-right: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-main-grid {
+    border: 1px solid lightgray ;
+    background-color: rgba(211, 211, 211, 0.5);
+    margin-right: 250px;
+    margin-left: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.form-main-grid-title {
+    font-size: 20px;
+    margin: 20px 61px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+    margin: 10px;
+    line-height: 2;
+    width: 325px;
 }
+
+.radio {
+    margin-top: 0px;
+    margin-left: -410px;
+}
+
+.agree-label {
+    margin-top: 0px;
+    margin-left: -161px;
+}
+
+.form-button {
+    color:#fff;
+    background-color: #389daf;
+    font-size: 20px;
+    border: 1px solid #389daf;
+}
+
+.offer {
+    text-align: center;
+}
+
+.offer p {
+    padding: 30px 130px;
+    font-size: 20px;
+}
+
+.offer h4 {
+    color: #389daf;
+    font-size: 1.5em;
+}
+
+.offer ul {
+    font-size: 20px;
+    margin-right: 38px;
+}
+
+.offer li {
+    list-style: none;
+}
+
+.enter-btn-offer {
+    color:#fff;
+    background-color: #389daf;
+    font-size: 20px;
+    border: 1px solid #389daf;
+    margin: 10px;
+    line-height: 2;
+    width: 325px;
+}
+
+.tour-deals-header {
+    display: flex;
+    justify-content:space-around;
+}
+
+.tour-deals-header h3 {
+    font-size: 30px;
+}
+
+.tour-deals-header a {
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 13px;
+    font-size: 14px;
+}
+
+.tour-deals-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.tour-deals-card {
+    border: 1px solid #999;
+    border-radius: 5px;
+    width: 50vh;
+}
+
+.tour-deals-card a {
+    text-decoration: none;
+    color: #000;
+}
+
+.tour-deals-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.tour-deals-place {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #389daf;
+    justify-content: space-evenly;
+    color: #f5f1f1;
+}
+
+.footer-name {
+    margin: 20px;
+    font-size: 1.5em;
+}
+
+.footer-moto {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 1em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f5f1f1;
+    font-size: 1.5em;
+    padding-right: 5px;
+}
+
+footer a:hover{
+    transition-duration: 3s;
+    font-size: 2em;
+    transform-origin: bottom;
+} */
