@@ -1,4 +1,4 @@
-## Weather App 
+## Landing page 
 
 This project is a landing page for a travel agency.
 
