@@ -1,0 +1,32 @@
+.subscribe-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #dfd7f9;
+    max-width: 80%;
+    margin:  3em auto;
+    border-radius: 100px 10px 10px 10px;
+    padding: 3em 0;
+    gap:32px;
+}
+
+
+.subscribe-text {
+    color: #5e6282;
+    text-align: center;
+}
+
+.subscribe-input {
+    padding: 16px 32px;
+    border-radius: 10px;
+    margin-right: 32px;
+    border: none;
+}
+
+.subscribe-btn {
+    background-color: #ff946D;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 10px;
+    border: none;
+}

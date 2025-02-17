@@ -1,4 +1,4 @@
-
+/* 
 .header {
     background-color: #000;
     color: white;
@@ -63,4 +63,79 @@ form .radio{
     background-color: #389daf;
     font-size: 20px;
     border: 1px solid #389daf;
+}
+
+@media screen and (max-device-width: 913px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    .form-main-grid {
+        max-width: 100%;
+    }
+} */
+
+.main-container {
+    display: flex;
+    max-width: 80%;
+    flex-direction: row;
+    margin: 100px auto;
+}
+
+.decore-img {
+    position: absolute;
+    top: 0;
+    right: -100px;
+    z-index: 0;
+}
+
+.main-description {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap:16px;
+    max-width: 50%;
+}
+
+.tagline {
+    text-transform: uppercase;
+    color: #DF6951;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-heading {
+    color: #181e4b;
+    font-weight: bold;
+    font-size: 84px;
+}
+
+.main-desc {
+    color: #5E6282;
+    font-size: 16px;
+}
+
+.main-btn {
+    background-color: #F1a501;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    padding: 16px 32px;
+}
+
+.main-image {
+    max-width: 50%;
+    overflow: hidden;
+    z-index: 10;
+    /* background-color: #FFF1DA; */
+}
+
+.main-image img {
+    max-height: 100%;
+    width: 100%;
 }
